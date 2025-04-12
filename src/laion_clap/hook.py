@@ -72,7 +72,7 @@ class CLAP_Module(torch.nn.Module):
         )
         return result
 
-    def load_ckpt(self, ckpt = None, model_id = -1, verbose = True):
+    def load_ckpt(self, ckpt = None, model_id = -1, verbose = False):
         """Load the pretrained checkpoint of CLAP model
 
         Parameters
